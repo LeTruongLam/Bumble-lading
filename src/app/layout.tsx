@@ -26,13 +26,13 @@ const bumbleSansBold = localFont({
 export const metadata: Metadata = {
   title: "Bumble | Date, Chat, Meet New People & Network Better",
   description:
-    "Bumble is a social networking and dating app where you can date, chat, and meet new people. Network better and find meaningful connections.",
-  robots: "noindex, nofollow",
+    "Join Bumble, the app where you can date, chat, and build meaningful relationships. Network smarter and meet amazing people today on Bumble!",
+  robots: "index, follow",
   keywords: "dating, social networking, networking, chat, meet new people",
   openGraph: {
     title: "Bumble | Date, Chat, Meet New People & Network Better",
     description:
-      "Bumble is a social networking and dating app where you can date, chat, and meet new people. Network better and find meaningful connections.",
+      "Join Bumble, the app where you can date, chat, and build meaningful relationships. Network smarter and meet amazing people today on Bumble!",
     siteName: "Bumble",
     url: "https://bumble.com",
     images: [
@@ -49,10 +49,14 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Bumble | Date, Chat, Meet New People & Network Better",
     description:
-      "Bumble is a social networking and dating app where you can date, chat, and meet new people. Network better and find meaningful connections.",
+      "Join Bumble, the app where you can date, chat, and build meaningful relationships. Network smarter and meet amazing people today on Bumble!",
     images: [
       "https://i.pinimg.com/236x/c4/90/a4/c490a469a0fddfcc3a5e95f340581a9f.jpg",
     ],
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
   },
 };
 
