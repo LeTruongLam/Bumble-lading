@@ -25,7 +25,35 @@ const bumbleSansBold = localFont({
 
 export const metadata: Metadata = {
   title: "Bumble | Date, Chat, Meet New People & Network Better",
-  description: "Bumble | Date, Chat, Meet New People & Network Better",
+  description:
+    "Bumble is a social networking and dating app where you can date, chat, and meet new people. Network better and find meaningful connections.",
+  robots: "noindex, nofollow",
+  keywords: "dating, social networking, networking, chat, meet new people",
+  openGraph: {
+    title: "Bumble | Date, Chat, Meet New People & Network Better",
+    description:
+      "Bumble is a social networking and dating app where you can date, chat, and meet new people. Network better and find meaningful connections.",
+    siteName: "Bumble",
+    url: "https://bumble.com",
+    images: [
+      {
+        url: "https://i.pinimg.com/236x/c4/90/a4/c490a469a0fddfcc3a5e95f340581a9f.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Bumble | Date, Chat, Meet New People & Network Better",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Bumble | Date, Chat, Meet New People & Network Better",
+    description:
+      "Bumble is a social networking and dating app where you can date, chat, and meet new people. Network better and find meaningful connections.",
+    images: [
+      "https://i.pinimg.com/236x/c4/90/a4/c490a469a0fddfcc3a5e95f340581a9f.jpg",
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -41,7 +69,6 @@ export default function RootLayout({
         <Providers>
           <ToastContainer />
           <QueryClientProviderWrapper>{children}</QueryClientProviderWrapper>
-          {/* {children} */}
         </Providers>
       </body>
     </html>

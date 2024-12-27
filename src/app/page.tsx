@@ -25,7 +25,7 @@ export default function Home() {
             src="/bg_section-1.avif"
             width={1920}
             height={1080}
-            alt="Mô tả hình ảnh"
+            alt="Bumble dating app"
             className="w-full h-full relative max-h-[calc(100vh-4.5rem)] object-cover object-[77%_10%] "
           />
           <div className="absolute  top-0 left-0 w-full h-full bg-black bg-opacity-30">
@@ -71,7 +71,7 @@ export default function Home() {
                 src="/bg_section-2.avif"
                 width={600}
                 height={620}
-                alt="Mô tả hình ảnh"
+                alt="Bumble dating app"
               />
             </div>
           </div>
@@ -89,13 +89,13 @@ export default function Home() {
                   src={"/blog-item-1.avif"}
                   width={379}
                   height={252}
-                  alt="Mô tả hình ảnh"
+                  alt="Bumble dating app"
                   className="rounded-[24px] object-cover aspect-[3/2]"
                   priority
                 />
                 <div className="pt-8">
                   <a
-                    href="#"
+                    href="/blogs"
                     className="text-[36px] hover:underline leading-[1.1]"
                   >
                     Meet someone with Bumble Date
@@ -112,13 +112,13 @@ export default function Home() {
                   src={"/blog-item-2.avif"}
                   width={379}
                   height={252}
-                  alt="Mô tả hình ảnh"
+                  alt="Bumble dating app"
                   className="rounded-[24px] object-cover aspect-[3/2]"
                   priority
                 />
                 <div className="pt-8">
                   <a
-                    href="#"
+                    href="/blogs"
                     className="text-[36px] hover:underline leading-[1.1]"
                   >
                     Find new friends on Bumble For Friends
@@ -134,13 +134,13 @@ export default function Home() {
                   src={"/blog-item-3.avif"}
                   width={379}
                   height={252}
-                  alt="Mô tả hình ảnh"
+                  alt="Bumble dating app"
                   className="rounded-[24px] object-cover aspect-[3/2]"
                   priority
                 />
                 <div className="pt-8">
                   <a
-                    href="#"
+                    href="/blogs"
                     className="text-[36px] hover:underline leading-[1.1]"
                   >
                     Make career moves with Bumble Bizz
@@ -163,7 +163,7 @@ export default function Home() {
                 src="/bg_section-3.avif"
                 width={600}
                 height={620}
-                alt="Mô tả hình ảnh"
+                alt="Bumble dating app"
               />
             </div>
             <div className="w-1/2 pl-[5%] leading-[0.85] text-primary-content">
@@ -197,7 +197,7 @@ export default function Home() {
                         src={"/landing-carousel-1.avif"}
                         height={404}
                         width={606}
-                        alt="Mô tả hình ảnh"
+                        alt="Bumble dating app"
                         className=""
                       />
                     </div>
@@ -219,7 +219,7 @@ export default function Home() {
                         src={"/landing-carousel-2.avif"}
                         height={404}
                         width={606}
-                        alt="Mô tả hình ảnh"
+                        alt="Bumble dating app"
                         className=""
                       />
                     </div>
@@ -241,17 +241,18 @@ export default function Home() {
                         src={"/landing-carousel-3.avif"}
                         height={404}
                         width={606}
-                        alt="Mô tả hình ảnh"
+                        alt="Bumble dating app"
                         className=""
                       />
                     </div>
                     <div className="p-8">
                       <h3 className="text-4xl break-words leading-[1.1] hover:underline">
-                        Hannah Met Her Now-Husband on Bumble.
+                        Carène and You-Liang
                       </h3>
                       <p className="break-words text-lg leading-[1.3] mt-3">
-                        A Few Months Later, She Met One of Her Bridesmaids
-                        There, Too
+                        Before building their tiny house together Carène and
+                        You-Liang met on Bumble, where You-Liang was drawn in by
+                        Carène’s travel pics.
                       </p>
                     </div>
                   </Card>
